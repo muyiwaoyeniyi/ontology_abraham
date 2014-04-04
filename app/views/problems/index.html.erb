@@ -1,0 +1,25 @@
+
+<%# navigation styled for Bootstrap 3.0 %>
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      
+    </div>
+  </div>
+</nav>
+
+<a class="topic" href="#"><h1>Water</h1></a>
+
+
+<div class="info">
+	<% @problems.each do |p| %>
+		<%= p.category %> => <%= p.solutions.first.category %> 
+		<br> <a href="<%= p.papers.first.link %>">Click me</a>
+		<br><br>
+	<% end %>
+</div>
+
+
+
+
+

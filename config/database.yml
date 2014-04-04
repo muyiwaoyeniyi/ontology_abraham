@@ -1,0 +1,21 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  collation: utf8_general_ci
+  reconnect: false
+  database: ontology_dev
+  pool: 5
+  username: root
+  password: wisdom
+  timeout: 5000
+  host: localhost
+
+
+#production:
+ # adapter: mysql2
+ # encoding: utf8
+ # collation: utf8_general_ci
+ # database: us-cdbr-east-04.cleardb.com
+ # username: bf83714e0f06d0
+ # password: f31af895
+#mysql://bb563038567c8c:8f162a9d@us-cdbr-east-04.cleardb.com/heroku_c9a6834ed7f808b?reconnect=true
